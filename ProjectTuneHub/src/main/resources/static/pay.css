@@ -1,0 +1,67 @@
+/* premium.css */
+
+/* General body styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #121212; /* Dark Spotify-like background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centering the container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #333; /* Slightly lighter black border */
+    text-align: center; /* Center the text inside the container */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #ff0050; /* Pink background color */
+    color: #fff; /* White text */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ccc; /* Light grey text */
+}
+
+/* Styling the form elements */
+form {
+    margin: 20px 0; /* Increased margin for more spacing */
+    text-align: center;
+}
+
+/* Styling the button */
+.buy-button {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff0050; /* Pink background color */
+    border: 2px solid #ff0050; /* Pink border */
+    border-radius: 25px; /* Rounded shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 200px; /* Consistent button width */
+}
+
+.buy-button:hover {
+    background-color: #ff3366; /* Slightly lighter pink */
+    transform: scale(1.05); /* Slightly enlarges on hover */
+}

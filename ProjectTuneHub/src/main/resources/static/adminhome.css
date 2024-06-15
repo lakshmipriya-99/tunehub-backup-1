@@ -1,0 +1,53 @@
+/* admin.css */
+
+/* General body styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #121212; /* Spotify-like dark background */
+}
+
+/* Centering the container */
+.container {
+    background: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #333; /* Slightly lighter black border */
+    text-align: center;
+    width: 300px; /* Set a fixed width for the container */
+}
+
+/* Heading styling */
+h2 {
+    color: #fff; /* White text */
+    margin-bottom: 30px; /* Increased margin for more spacing */
+    font-size: 28px; /* Larger font size */
+}
+
+/* Button styling */
+input[type="submit"] {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff0050; /* Pink background color */
+    border: 2px solid #ff0050; /* Pink border */
+    border-radius: 25px; /* Rounded shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%; /* Full width button */
+    margin-bottom: 20px; /* Added margin between buttons */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3366; /* Slightly lighter pink */
+    transform: scale(1.05); /* Slightly enlarges on hover */
+}
+
+/* Spacing between forms */
+form {
+    margin: 0;
+}

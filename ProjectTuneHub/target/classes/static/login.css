@@ -1,0 +1,70 @@
+/* login.css */
+
+/* General body styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #121212; /* Spotify-like dark background */
+}
+
+/* Centering the form container */
+form {
+    background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #333; /* Slightly lighter black border */
+    text-align: center;
+}
+
+/* Heading styling */
+h2 {
+    color: #fff; /* White text */
+    margin-bottom: 30px; /* Increased margin for more spacing */
+    font-size: 28px; /* Larger font size */
+}
+
+/* Label styling */
+label {
+    color: #ccc; /* Light grey text */
+    font-size: 16px;
+}
+
+/* Input field styling */
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="email"]::placeholder, input[type="password"]::placeholder {
+    color: #888; /* Placeholder text color */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff0050; /* Pink background color */
+    border: 2px solid #ff0050; /* Pink border */
+    border-radius: 25px; /* Rounded shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3366; /* Slightly lighter pink */
+    transform: scale(1.05); /* Slightly enlarges on hover */
+}
+

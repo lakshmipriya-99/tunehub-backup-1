@@ -1,0 +1,103 @@
+/* registration.css */
+
+/* General body styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+    margin-top: 150px;
+    margin-bottom:150px;
+    background: #121212; /* Spotify-like dark background */
+}
+
+/* Centering the form container */
+form {
+    background: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #333; /* Slightly lighter black border */
+    text-align: left;
+    max-width: 400px; /* Restricting width for better layout */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+}
+
+/* Heading styling */
+h2 {
+    color: #fff; /* White text */
+    margin-bottom: 30px; /* Increased margin for more spacing */
+    font-size: 28px; /* Larger font size */
+    text-align: center; /* Center the title */
+    margin-top: 0; /* Adjusted top margin */
+}
+
+/* Label styling */
+label {
+    color: #ccc; /* Light grey text */
+    font-size: 16px;
+    display: block;
+    margin-top: 20px; /* Spacing between labels and inputs */
+}
+
+/* Input field styling */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, textarea::placeholder {
+    color: #888; /* Placeholder text color */
+}
+
+/* Radio button group styling */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex-basis: 45%; /* Adjust as needed */
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff0050; /* Pink background color */
+    border: 2px solid #ff0050; /* Pink border */
+    border-radius: 25px; /* Rounded shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3366; /* Slightly lighter pink */
+    transform: scale(1.05); /* Slightly enlarges on hover */
+}
+
+/* Textarea styling */
+textarea {
+    resize: vertical;
+}
+
